@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    .img{animation: pulse 2s infinite;}
+@keyframes pulse{
+    0%,100%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+}
+    .img{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;      
+        }   
+      .img1{Animation:rotate 3s infinite;}
+@keyframes rotate{
+    0%{transform: rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}  
+        .img1{
+         height:100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;    
+        } 
+    .img2{animation: fadein 3s infinite;}
+@keyframes fadein{
+    0%{opacity: 0;}  
+    50%{opacity: 5;}
+    100%{opacity: 0;}
+}
+  .img2{
+         height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;    
+        }   
+    .img3{animation: slidein 2s infinite;}
+@keyframes slidein{
+    0%{transform:translateX(-50%);}
+    50%{transform:translateX(0%);}
+    100%{transform: translateX(50%);}
+}
+ .img3{
+        height: 100px;
+        width: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 30px;    
+        }   
+#mynavbar{
+        background-color:deeppink;
+        margin-bottom: 0px; 
+        }
+        body{
+            background-color: lightpink;
+        }
+    </style>
+    </head>
+    <body>
+    <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 100;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#"><strong>PROJECT</strong></a> 
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+         <ul class="nav navbar-nav">
+            <li><a href="Apps.html">Apps</a></li>
+             <li><a href="Score.html">Score</a></li>
+             <li><a href="Hide.html">Hide</a></li>
+             <li><a href="Animation.html">Animation</a></li>
+             <li><a href="Hover.html">Hover</a></li>
+             <li><a href="Form.html">Form</a></li>    
+        </ul>    
+     </div>
+    </nav>
+        <center>
+            <img class="img" src= "https://t3.ftcdn.net/jpg/00/19/89/58/360_F_19895879_uZ0tHguWowgKxb7jgUzuJk7IdXJCYZkI.jpg"><P></P>
+            <img class="img1" src="https://cdn.britannica.com/68/195168-050-BBAE019A/football.jpg"><P></P>
+            <img class="img2" src="https://media.newyorker.com/photos/62c4511e47222e61f46c2daa/4:3/w_2663,h_1997,c_limit/shouts-animals-watch-baby-hemingway.jpg"><P></P>
+            <img class="img3" src="https://images.pexels.com/photos/47547/squirrel-animal-cute-rodents-47547.jpeg?cs=srgb&dl=pexels-pixabay-47547.jpg&fm=jpg"><P></P>
+        </center>
+    </body>
+</html>

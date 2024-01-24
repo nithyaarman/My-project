@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+        body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/915/646/non_2x/rectangle-and-square-geometric-gradient-color-background-free-vector.jpg);
+}
+form{
+    margin-bottom:50px;
+    margin-top: 50px;
+    margin left: 50px;
+    margin-right: 70px;
+    border-radius: 75%;
+}
+    #mynavbar {
+            background-color:palevioletred;
+            margin-bottom: 0px; 
+        }
+        h1{
+            color: aliceblue;
+            font-family: fantasy;
+        }  
+    </style>
+    <body>
+    <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 100;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#"><strong>PROJECT</strong></a> 
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+         <ul class="nav navbar-nav">
+             <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Apps.html">Apps</a></li>
+             <li><a href="Score.html">Score</a></li>
+             <li><a href="Hide.html">Hide</a></li>
+             <li><a href="Animation.html">Animation</a></li>
+             <li><a href="Hover.html">Hover</a></li>
+             <li><a href="Form.html">Form</a></li>  
+        </ul>    
+     </div>
+    </nav>
+      <center>
+    <h1><strong><u><i>FORM</i></u></strong></h1>
+            <form>
+            <p></p>
+            <lable for="Full name">Full Name:</lable>
+            <input type="type" id="name" name="name" placeholder="enter your full name" required>
+            <p></p>
+            <lable for="Address">Address:</lable>
+            <input type="type" id="Address" name="Address" placeholder="enter your Address" required><br>
+            <p></p>
+            <lable for="gender">Gender:</lable>
+            <select>
+            <option value="choose your gender">choose your gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+             <p></p>
+            <lable for="mobile number">Mobile No:</lable>
+            <input type="number" id="mobile number" name="mobile number" placeholder="enter your mobile number" required>
+            <p></p>
+            <lable for="email id">Email:</lable>
+            <input type="email" id="email id" name="email id" placeholder="enter your email" required>
+            <p></p>
+            <lable for="Occupation">Occupation:</lable>
+            <select>
+            <option value="Choose your Occupation">choose your occuation</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Student">Student</option>
+                <option value="Accountant">Accountant</option>
+                <option value="Others">Others</option>
+            </select>
+              <p></p>
+            <button type="submit">Submit</button>
+                </form>
+         </center>  
+    </body>
+</html>

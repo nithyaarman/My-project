@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+<script>
+    var score=0;
+
+function decrease(){
+    score=score-15;
+    document.getElementById("box").textContent=score;
+}
+
+function increase(){
+    score=score+15;
+    document.getElementById("box").textContent=score;
+}
+    </script>
+<style>
+    body{
+            background-color: lightgray;
+        }
+    #mynavbar {
+            background-color:darkseagreen;
+            margin-bottom: 0px; 
+        }
+    h2{
+        font-family: cursive;
+    }
+</style>
+    </head>
+    <body>
+    <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 100;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        <a class="navbar-brand" href="#"><strong>PROJECT</strong></a> 
+        </div>
+        <div class="navbar-collapse collapse" id="mynavbar">
+         <ul class="nav navbar-nav">
+            <li><a href="Resume.html">Resume</a></li>
+            <li><a href="Apps.html">Apps</a></li>
+             <li><a href="Score.html">Score</a></li>
+             <li><a href="Hide.html">Hide</a></li>
+             <li><a href="Animation.html">Animation</a></li>
+             <li><a href="Hover.html">Hover</a></li>
+             <li><a href="Form.html">Form</a></li>
+         </ul>    
+     </div>
+    </nav>
+        <center>
+            <h2>While click on below images,<br>Score will be shown</h2>
+          <span>
+            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202012/dancing-dave-minion-510835_128_1200x768.jpeg?size=690:388" onclick="decrease()" style="width: 300px;height: 300px;border-radius: 30px;margin-top: 50px;margin-bottom: 3opx;margin-left: 20px;margin-right: 20px;">
+            <img src="https://www.lcca.org.uk/media/671026/justin-lim-500765-unsplash.jpg?mode=crop&quality=75&width=860&height=485"onclick="increase()" style="width: 300px;height: 300px;border-radius: 30px;margin-top: 50px;margin-bottom: 3opx;margin-left: 20px;margin-right: 20px;">
+        <div>
+            <label>score :</label>
+        </div>
+        <div>
+            <label id="box">0</label>
+        </div>
+        </span>
+      </center>
+    </body>
+</html>
